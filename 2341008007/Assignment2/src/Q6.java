@@ -5,7 +5,7 @@ public class Q6 {
         Scanner hv = new Scanner(System.in);
         System.out.print("Please enter the time: ");
         double time = hv.nextDouble();
-        double distance = 0.5 * 32.174 * time * time;
+        double distance = 0.5 * 32.174 * Math.pow(time,2);
         System.out.println("Distance Travelled : " + distance);
     }
 }
