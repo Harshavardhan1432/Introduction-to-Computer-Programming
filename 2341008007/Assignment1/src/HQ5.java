@@ -1,4 +1,4 @@
-public class HQ5
+public class HQ5_II
 {
         public static void main(String[] args) {
             int W = 1, G = 2, K = 3, A = 4;
