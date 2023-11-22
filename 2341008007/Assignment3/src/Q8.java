@@ -10,6 +10,8 @@ public class Q8 {
             System.out.println("(" + x + ", " + y + ")" + " is on the y-axis");
         else if (y == 0.0)
             System.out.println("(" + x + ", " + y + ")" + " is on the x-axis");
+        else if (x == 0.0 && y == 0.0)
+            System.out.println("(" + x + ", " + y + ")" + " is on the origin");
         else if (x < 0 && y > 0)
             System.out.println("(" + x + ", " + y + ")" + " is in the quadrant II");
         else if (x < 0 && y < 0)
