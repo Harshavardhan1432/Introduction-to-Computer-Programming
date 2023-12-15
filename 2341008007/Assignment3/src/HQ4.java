@@ -7,5 +7,6 @@ public class HQ4 {
         System.out.println( n % 30 == 0);
         System.out.println( n % 5 == 0 || n %  6 == 0);
         System.out.println((n % 5 == 0 || n % 6 == 0));
+        System.out.println("Hello");
     }
 }
