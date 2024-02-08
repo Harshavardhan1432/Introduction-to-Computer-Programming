@@ -10,8 +10,11 @@ public class Q5 {
             arr [i] = hv.nextDouble();
         System.out.println("Second largest : " + sec(arr));
     }
-    public static double sec(double [] array){
+    public static double sec(double [] array) {
         Arrays.sort(array);
-        return array.length - 1;
+        int i = array.length - 2;
+        if (array[i] > array[i - 1])
+            return array[i];
+        return 0;
     }
 }
